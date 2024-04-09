@@ -13,4 +13,4 @@ pip install pillow
 pip install pyinstaller
 pyinstaller -F -w -i icon.ico --add-data 'icon.ico;.' --add-data 'fire-alt.png;.' hot_conner.py
 ```
-then your exe will appears in a dictionary named 'dist'
+then your exe will appears in a dictionary named 'dist' **or you can just download the latest release.**
