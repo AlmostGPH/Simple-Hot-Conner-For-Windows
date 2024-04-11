@@ -16,3 +16,9 @@ pip install pyinstaller
 pyinstaller -F -w -i icon.ico --add-data 'icon.ico;.' --add-data 'fire-alt.png;.' hot_conner.py
 ```
 then your exe will appears in a dictionary named 'dist' **or you can just download the latest release.**
+
+When you building, use [**UPX**](https://github.com/upx/upx/tree/v3.96) will makes your exe smaller, run command as follow:
+
+```
+pyinstaller -F -w -i icon.ico --add-data 'icon.ico;.' --add-data 'fire-alt.png;.' hot_conner.py --upx-dir your/path/to/upx
+```
