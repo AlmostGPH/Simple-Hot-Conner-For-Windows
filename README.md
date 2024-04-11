@@ -22,3 +22,8 @@ When you building, use [**UPX**](https://github.com/upx/upx/tree/v3.96) will mak
 ```
 pyinstaller -F -w -i icon.ico --add-data 'icon.ico;.' --add-data 'fire-alt.png;.' hot_conner.py --upx-dir your/path/to/upx
 ```
+
+You can customize the configuration at the icon in the system tray
+
+![image.png](https://s2.loli.net/2024/04/11/GRo7NTrqLDdahVP.png)
+![image.png](https://s2.loli.net/2024/04/11/TAd1l94I7Kxejis.png)
